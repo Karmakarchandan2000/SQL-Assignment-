@@ -7,3 +7,11 @@ City varchar(15),
 Comm double(5,2) 
 );
 
+ordersorderscreate table Orders(
+Onum int (5) PRIMARY KEY,
+Amt real,
+Odate date,
+Cnum int(5),
+Snum int(5)
+
+);
